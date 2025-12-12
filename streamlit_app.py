@@ -23,7 +23,7 @@ if completed_weeks < 14:
     st.error("Week 14 not completed yet. Cannot determine bottom 4.")
     st.stop()
 
-st.write(f"Data through completed Week {completed_weeks} (Week {current_week} is next / in progress)\n")
+#st.write(f"Data through completed Week {completed_weeks} (Week {current_week} is next / in progress)\n")
 
 # === 1. Standings after Week 14 ===
 standings_after_wk14 = []
@@ -147,5 +147,6 @@ if tiebreaker_used:
                f"{last_team.team_name} is officially last place for the season.")
 
 st.markdown("="*60)
+
 
 st.caption("🔄 Updates automatically every minute • Live scoring during games • Share this link!")
